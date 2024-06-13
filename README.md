@@ -1,40 +1,132 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Netflix Clone
 
-## Getting Started
+Welcome to the Netflix Clone project! This repository contains the source code for a Netflix-like streaming platform, designed to mimic the look and feel of the popular streaming service, Netflix.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
+
+This project is a Netflix clone built for educational purposes. It aims to replicate the core functionalities and user interface of Netflix, allowing users to browse and watch video content. The project demonstrates the use of modern web development technologies and practices.
+
+## Features
+
+- User Authentication (Sign Up, Login, Logout)
+- Browse Movies and TV Shows
+- Search Functionality
+- Responsive Design
+- Video Playback
+- User Profiles
+- My List Feature (Add/Remove Content)
+
+## Technologies Used
+
+- **Frontend:**
+  - React.js
+  - Redux
+  - CSS (SCSS)
+  - Bootstrap
+
+- **Backend:**
+  - Node.js
+  - Express.js
+  - MongoDB
+  - JWT (JSON Web Tokens) for Authentication
+
+- **Others:**
+  - Axios for API requests
+  - Firebase (or any other service for video storage and streaming)
+
+## Installation
+
+Follow these steps to get a local copy of the project up and running.
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/itzsleepyy/netflix-clone.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd netflix-clone
+   ```
+
+3. **Install dependencies for both frontend and backend:**
+
+   - For the backend:
+
+     ```bash
+     cd backend
+     npm install
+     ```
+
+   - For the frontend:
+
+     ```bash
+     cd ../frontend
+     npm install
+     ```
+
+4. **Set up environment variables:**
+
+   Create a `.env` file in the `backend` directory and add the following:
+
+   ```env
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
+
+## Usage
+
+1. **Run the backend server:**
+
+   ```bash
+   cd backend
+   npm start
+   ```
+
+2. **Run the frontend development server:**
+
+   ```bash
+   cd ../frontend
+   npm start
+   ```
+
+3. **Open your browser and navigate to:**
+
+   ```
+   http://localhost:3000
+   ```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request to propose changes.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+itzsleepyy - [GitHub](https://github.com/itzsleepyy) [Discord](https://discord.com/users/768420777359704094)
+
+Project Link: [https://github.com/itzsleepyy/netflix-clone](https://github.com/itzsleepyy/netflix-clone)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This `README.md` provides an overview of your project, instructions for setup, and how others can contribute. Be sure to update any placeholder information, especially the contact email and any other project-specific details.
