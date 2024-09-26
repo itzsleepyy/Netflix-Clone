@@ -103,5 +103,3 @@ itzsleepyy - [GitHub](https://github.com/itzsleepyy) [Discord](https://discord.c
 
 Project Link: [https://github.com/itzsleepyy/netflix-clone](https://github.com/itzsleepyy/netflix-clone)
 ```
-
-This `README.md` provides an overview of your project, instructions for setup, and how others can contribute. Be sure to update any placeholder information, especially the contact email and any other project-specific details.
